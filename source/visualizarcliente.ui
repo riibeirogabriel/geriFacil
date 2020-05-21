@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>visualizarCliente</class>
+ <widget class="QWidget" name="visualizarCliente">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Visualizar Cliente - [GeriFácil] </string>
+  </property>
+  <widget class="QPushButton" name="b_voltar">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>60</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Voltar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>40</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cliente:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b_visualizarCarga">
+   <property name="geometry">
+    <rect>
+     <x>889</x>
+     <y>90</y>
+     <width>100</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Visualizar
+Pedido na  Carga</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="lista">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>90</y>
+     <width>540</width>
+     <height>500</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Cargas</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="in_nome_cliente">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>50</y>
+     <width>113</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

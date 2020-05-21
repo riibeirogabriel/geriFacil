@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>telaPrincipal</class>
+ <widget class="QWidget" name="telaPrincipal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>760</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>640</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>GeriFácil</string>
+  </property>
+  <widget class="QPushButton" name="b_administracao_de_clientes">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>120</y>
+     <width>120</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Administração 
+ de clientes</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b_administracao_de_cidades">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>430</y>
+     <width>120</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Administração 
+ de Cidades</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b_estatisticas">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>430</y>
+     <width>120</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Estatísticas</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b_administracao_de_produtos">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>120</y>
+     <width>120</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Administração 
+ de Produtos</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b_cargas">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>280</y>
+     <width>120</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Cargas</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>540</y>
+     <width>120</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>GeriFácil</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>b_administracao_de_clientes</tabstop>
+  <tabstop>b_administracao_de_produtos</tabstop>
+  <tabstop>b_administracao_de_cidades</tabstop>
+  <tabstop>b_estatisticas</tabstop>
+  <tabstop>b_cargas</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

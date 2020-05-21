@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>adicionarCidade</class>
+ <widget class="QWidget" name="adicionarCidade">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Adicionar Cidade - [GeriFácil] </string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>453</x>
+     <y>100</y>
+     <width>60</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cidade:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b_salvar">
+   <property name="geometry">
+    <rect>
+     <x>643</x>
+     <y>150</y>
+     <width>100</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Salvar</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="in_cidade">
+   <property name="geometry">
+    <rect>
+     <x>513</x>
+     <y>100</y>
+     <width>400</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b_voltar">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>60</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Voltar</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>in_cidade</tabstop>
+  <tabstop>b_voltar</tabstop>
+  <tabstop>b_salvar</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

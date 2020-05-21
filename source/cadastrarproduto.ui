@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>cadastrarProduto</class>
+ <widget class="QWidget" name="cadastrarProduto">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Cadastrar Produtos - [GeriFácil] </string>
+  </property>
+  <widget class="QPushButton" name="b_voltar">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>60</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Voltar</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="in_descricao">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>100</y>
+     <width>400</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>443</x>
+     <y>100</y>
+     <width>80</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Descrição</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>443</x>
+     <y>60</y>
+     <width>80</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Código:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="in_COD">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>60</y>
+     <width>400</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>443</x>
+     <y>140</y>
+     <width>80</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Unidade:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>443</x>
+     <y>180</y>
+     <width>80</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Custo:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="in_custo">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>180</y>
+     <width>400</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b_limpar">
+   <property name="geometry">
+    <rect>
+     <x>593</x>
+     <y>290</y>
+     <width>100</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Limpar</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="b_adicionar">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>290</y>
+     <width>100</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>Adicionar</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cb_unidade">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>140</y>
+     <width>400</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>UN</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>FD</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>DZ</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CX</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CT</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>DP</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="in_venda">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>220</y>
+     <width>400</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>443</x>
+     <y>220</y>
+     <width>80</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Venda:</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>in_COD</tabstop>
+  <tabstop>in_descricao</tabstop>
+  <tabstop>cb_unidade</tabstop>
+  <tabstop>in_custo</tabstop>
+  <tabstop>in_venda</tabstop>
+  <tabstop>b_adicionar</tabstop>
+  <tabstop>b_limpar</tabstop>
+  <tabstop>b_voltar</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
